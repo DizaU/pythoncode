@@ -20,7 +20,7 @@ elif(rating==1):
 elif(rating>5 or rating<0):
 	print("invalid rating")
 	validRating=False
-if (validRating=True):
+if (validRating=True):    #then better way of writing it is if(validrating)
 	print("Bonus in rupees is",bonus)
 	print("So your total earnings is rupees",salary+bonus)
 
