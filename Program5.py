@@ -6,5 +6,8 @@ if(age>=18):
 		print(name,"is selected")
 	else:
 		print(name,"is not selected")
-else:
-	print("You need to wait",18-age,"years more for college")
+else: 
+    if (18 - age==1):
+    	print("You need to wait",18-age,"year more for college")
+    else:
+        print("You need to wait",18-age,"years more for college")
