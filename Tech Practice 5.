@@ -1,0 +1,8 @@
+a=int(input("Enter your first number:"))
+b=int(input("Enter your second number:"))
+c=int(input("Enter your third number:"))
+d=a+b+c
+if(d>1000):
+  print("'You Won'")
+else:
+  print("'Sorry, You Did Not Win'")
