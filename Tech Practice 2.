@@ -1,0 +1,7 @@
+inp = int(input(" Hello ! Enter 1 to calculate the area of square and anything else to calculate the area of a circle :"))
+if(inp==1):
+    s=float(input("Enter the side of the square :"))
+    print("Area of the square is", 4*s)
+else:
+    r=float(input("Enter the radius of the circle :"))
+    print("Area of the circle is", 3.14*r*r)
